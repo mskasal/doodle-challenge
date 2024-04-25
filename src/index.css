@@ -1,0 +1,44 @@
+:root {
+  --chat-width: 100dw;
+  --chat-background: #fff;
+  --chat-text-color: #000;
+  --chat-message-background: #eee;
+  --chat-border-color: #ddd;
+  --chat-composer-border-color: #3498db;
+  --chat-container-box-shadow: -5px -1px 23px -11px rgba(0, 0, 0, 0.7);
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+html {
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  height: 100%;
+  font-family: system-ui, Arial, Helvetica, sans-serif;
+}
